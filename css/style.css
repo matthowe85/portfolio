@@ -21,11 +21,11 @@ html.is-animating .transition-fade {
 
 #logo {
   text-align: center;
-  font-size: 5pc;
+  font-size: 35px;
   color: white;
   padding-top: 9%; }
   #logo h1 {
-    font-size: 10pc; }
+    font-size: 3em; }
 
 .wallpaper:after {
   content: '.';
@@ -37,11 +37,35 @@ html.is-animating .transition-fade {
 .wallpaper {
   position: absolute;
   background-image: url("../img/wallpap.jpg");
-  width: 10000px;
-  height: 1000px;
+  width: 100%;
+  height: 86%;
   z-index: -2; }
 
 header {
-  justify-content: center !important; }
+  justify-content: center !important;
+  background-color: #131417; }
   header .navbar-nav a {
-    padding: 10px 40px; }
+    padding: 10px 40px;
+    color: #fff; }
+
+footer {
+  display: flex !important;
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  height: 51px;
+  width: 100%;
+  background-color: #131417;
+  color: white; }
+  footer .contact {
+    position: absolute;
+    right: 0; }
+    footer .contact .contact-icon {
+      font-size: 2em;
+      padding-right: 50px; }
+    footer .contact a {
+      color: #fff; }
+  footer .copyright {
+    margin: auto !important; }
+    footer .copyright p {
+      margin: auto; }

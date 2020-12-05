@@ -1,3 +1,5 @@
+$gray: #131417;
+$white: #fff;
 /// GENERAL ///
 * {
 	margin:0;
@@ -27,11 +29,11 @@ html.is-animating .transition-fade {
 }
 #logo {
 	text-align: center;
-    font-size: 5pc;
+    font-size: 35px;
     color: white;
     padding-top: 9%;
 	h1 {
-		font-size: 10pc;
+		font-size: 3em;
 	}
 }
 .wallpaper:after{
@@ -45,17 +47,47 @@ html.is-animating .transition-fade {
 .wallpaper {
 	position:absolute;
 	background-image: url('../img/wallpap.jpg');
-	width: 10000px;
-    height: 1000px;
+	width: 100%;
+    height: 86%;
     z-index: -2;
 }
 
 /// HEADER ///
 header {
 	justify-content: center !important;
+	background-color: $gray;
 	.navbar-nav {
 		a {
 			padding: 10px 40px;
+			color: $white;
+		}
+	}
+}
+/// FOOTER ///
+footer {
+	display:flex !important;
+	position:absolute;
+	text-align:center;
+	bottom: 0;
+	height: 51px;
+	width: 100%;
+	background-color: $gray;
+	color: white;
+	.contact {
+		position: absolute;
+    	right: 0;
+		.contact-icon {
+			font-size: 2em;
+    		padding-right: 50px;
+		}
+		a {
+			color: $white;
+		}
+	}
+	.copyright {
+		margin: auto !important;
+		p {
+			margin: auto;
 		}
 	}
 }
