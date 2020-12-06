@@ -8,18 +8,36 @@
 </head>
 <body>
 	<main id="swup" class="transition-fade">
-		<div id="page" class="portfolio-page container-fluid">
+		<div id="page" class="container portfolio-page container-fluid">
 			<div class="row">
-				<div class="col card"></div>
-				<div class="col card"></div>
-				<div class="col card"></div>
+				<div class="col-4 card">
+					<div class="screenshot"></div>
+					<div class="url"><a>http://www.emergingamerica.com</a></div>
+				</div>
+				<div class="col-4 card">
+					<div class="screenshot"></div>
+					<div class="url"><a>http://www.emergingamerica.com</a></div>
+				</div>
+				<div class="col-4 card">
+					<div class="screenshot"></div>
+					<div class="url"><a>http://www.emergingamerica.com</a></div>
+				</div>
 			</div>
 			<div class="row">
-				<div class="col card"></div>
-				<div class="col card"></div>
-				<div class="col card"></div>
+				<div class="col-4 card">
+					<div class="screenshot"></div>
+					<div class="url"><a>http://www.emergingamerica.com</a></div>
+				</div>
+				<div class="col-4 card">
+					<div class="screenshot"></div>
+					<div class="url"><a>http://www.emergingamerica.com</a></div>
+				</div>
+				<div class="col-4 card">
+					<div class="screenshot"></div>
+					<div class="url"><a>http://www.emergingamerica.com</a></div>
+				</div>
 			</div>
-      		<a href="/test.php">Go back</a>
+      		<a href="/">Go back</a>
 		</div>
 	</main>
 </body>
