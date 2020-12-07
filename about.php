@@ -8,7 +8,7 @@
 </head>
 <body>
 	<main id="swup" class="transition-fade">
-		<div id="page" class="container about-page container-fluid">
+		<div id="page" class="not-front container about-page container-fluid">
 			<div class="row">
 				<div class="col-6">
 					<h1>About</h1>

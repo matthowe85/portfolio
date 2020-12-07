@@ -14,6 +14,15 @@
 html.is-animating .transition-fade {
   opacity: 0; }
 
+main {
+  font-family: 'Open Sans', sans-serif; }
+
+.not-front {
+  margin: 100px 0; }
+
+#page .row {
+  padding-bottom: 50px; }
+
 .about-page .portrait {
   width: 50%;
   height: 100%;
@@ -79,6 +88,9 @@ footer {
       position: absolute;
       bottom: 50px;
       right: 64px; }
+    footer .contact #email-addy {
+      width: 191px;
+      padding: 5px; }
   footer .copyright {
     margin: auto !important; }
     footer .copyright p {

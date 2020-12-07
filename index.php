@@ -8,6 +8,8 @@
 	<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
 	<script src="/js/global.js"></script>
 	<script src="https://kit.fontawesome.com/d296c07018.js" crossorigin="anonymous"></script>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
 	
 </head>
 <body>
@@ -28,7 +30,7 @@
 	<footer>
 		<div class="contact">
 			<div id="email" class="email-slide">
-			<input id="email-addy"type="text" value="matthowe85@gmail.com"  READONLY/><button onclick="copyToClipboard();">Copy</button>
+			<input id="email-addy"type="text" value="matthowe85@gmail.com"  READONLY/><button class= "btn btn-light" onclick="copyToClipboard();">Copy</button>
 			</div>
 			<i class="far fa-envelope email-icon contact-icon"></i>
 			<a class="contact-icon" href="https://www.linkedin.com/in/matthew-howe-10b03b40/" target="_blank"><i class="fab fa-linkedin-in"></i></a>

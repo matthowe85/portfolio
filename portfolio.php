@@ -8,36 +8,35 @@
 </head>
 <body>
 	<main id="swup" class="transition-fade">
-		<div id="page" class="container portfolio-page container-fluid">
+		<div id="page" class="not-front container portfolio-page container-fluid">
 			<div class="row">
 				<div class="col-4 card">
 					<div class="screenshot"></div>
-					<div class="url"><a>http://www.emergingamerica.com</a></div>
+					<div class="url"><a>Emerging America</a></div>
 				</div>
 				<div class="col-4 card">
 					<div class="screenshot"></div>
-					<div class="url"><a>http://www.emergingamerica.com</a></div>
+					<div class="url"><a>DYS Post Secondary Guides</a></div>
 				</div>
 				<div class="col-4 card">
 					<div class="screenshot"></div>
-					<div class="url"><a>http://www.emergingamerica.com</a></div>
+					<div class="url"><a>CES Intranet</a></div>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-4 card">
 					<div class="screenshot"></div>
-					<div class="url"><a>http://www.emergingamerica.com</a></div>
+					<div class="url"><a>Gill-Montague Regional School District</a></div>
 				</div>
 				<div class="col-4 card">
 					<div class="screenshot"></div>
-					<div class="url"><a>http://www.emergingamerica.com</a></div>
+					<div class="url"><a>Bi-County Collaborative</a></div>
 				</div>
 				<div class="col-4 card">
 					<div class="screenshot"></div>
-					<div class="url"><a>http://www.emergingamerica.com</a></div>
+					<div class="url"><a>Collaborative for Educational Services</a></div>
 				</div>
 			</div>
-      		<a href="/">Go back</a>
 		</div>
 	</main>
 </body>
