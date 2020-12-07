@@ -46,7 +46,6 @@ main {
 	.screenshot {
 		width: 333px;
     	height: 150px;
-    	background-color: red;
     	margin: auto;
 	}
 }
@@ -130,4 +129,29 @@ footer {
 	width: 50%;
     height: 100%;
     background-image: url('../img/profilepic.png');
+}
+
+.ea {
+	background-image: url('../img/ea.png');
+	background-size: cover;
+}
+.dys {
+	background-image: url('../img/dysguides.png');
+	background-size: cover;
+}
+.gmrsd {
+	background-image: url('../img/gmrsd.png');
+	background-size: cover;
+}
+.bitco {
+	background-image: url('../img/profilepic.png');
+	background-size: cover;
+}
+.int {
+	background-image: url('../img/intranet.png');
+	background-size: cover;
+}
+.ces {
+	background-image: url('../img/profilepic.png');
+	background-size: cover;
 }
