@@ -28,6 +28,33 @@
 					<div class="portrait"></div>
 				</div>
 			</div>
+			<div class="row">
+				<div class="col-6">
+					<h2>Coding Launguages I Enjoy</h2>
+					<ul>
+						<li>Html</li>
+						<li>Css/Scss</li>
+						<li>Javascript/jQuery</li>
+						<li>React & Vue</li>
+						<li>MySql</li>
+						<li>PHP</li>
+						<li>Python</li>
+					</ul>
+				</div>
+				<div class="col-6">
+					<h2>Other Skills</h2>
+					<ul>
+						<li>Website Accessibility</li>
+						<li>Google Analytics</li>
+						<li>Google SEO</li>
+						<li>Custom CMS applications (i.e Drupal and Wordpress)</li>
+						<li>Website Optimization</li>
+						<li>Git</li>
+						<li>Linux Shell</li>
+						<li>Super Friendly :)</li>
+					</ul>
+				</div>
+			</div>
 		</div>
 	</main>
 <footer>

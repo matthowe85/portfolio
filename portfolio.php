@@ -15,32 +15,48 @@
 <body>
 	<main id="swup" class="transition-fade">
 		<div id="page" class="not-front container portfolio-page container-fluid">
-			<div class="row">
-				<div class="col-4 card ea">
-					<div class="screenshot"></div>
+			<h2>Portfolio</h2>
+			<p class="disclaimer">These websites are displayed with permission from Collaborative for Educational Services</p>
+			<div class="row ea">
+				<div class="screenshot col-6"></div>
+				<div class="body col-6">
 					<div class="url"><a>Emerging America</a></div>
-				</div>
-				<div class="col-4 card dys">
-					<div class="screenshot"></div>
-					<div class="url"><a>DYS Post Secondary Guides</a></div>
-				</div>
-				<div class="col-4 card int">
-					<div class="screenshot"></div>
-					<div class="url"><a>CES Intranet</a></div>
+					<div class="desc"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras efficitur eu arcu eget finibus. Nullam interdum vel massa at molestie. Proin ac velit vitae justo porttitor maximus. Etiam urna purus, ullamcorper vel ex eget, imperdiet porta quam. Praesent vitae neque eu libero egestas pretium. Nulla ornare, nunc nec vehicula volutpat, velit sem imperdiet est, quis ornare ligula nunc at sem. Ut congue faucibus erat sed imperdiet. Praesent finibus at leo ac tempus. Nulla dapibus finibus sem, in placerat mauris cursus porttitor. Nam maximus sapien et nulla ultricies, nec ultricies sapien bibendum. Nam lobortis cursus pretium. Sed semper dui eget malesuada laoreet.</p></div>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-4 card gmrsd">
-					<div class="screenshot"></div>
+			<div class="row dys">
+				<div class="screenshot col-6"></div>
+				<div class="body col-6">
+					<div class="url"><a>DYS Post Secondary Guides</a></div>
+					<div class="desc"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras efficitur eu arcu eget finibus. Nullam interdum vel massa at molestie. Proin ac velit vitae justo porttitor maximus. Etiam urna purus, ullamcorper vel ex eget, imperdiet porta quam. Praesent vitae neque eu libero egestas pretium. Nulla ornare, nunc nec vehicula volutpat, velit sem imperdiet est, quis ornare ligula nunc at sem. Ut congue faucibus erat sed imperdiet. Praesent finibus at leo ac tempus. Nulla dapibus finibus sem, in placerat mauris cursus porttitor. Nam maximus sapien et nulla ultricies, nec ultricies sapien bibendum. Nam lobortis cursus pretium. Sed semper dui eget malesuada laoreet.</p></div>
+				</div>
+			</div>
+			<div class="row int">
+				<div class="screenshot col-6"></div>
+				<div class="body col-6">
+					<div class="url"><a>CES Intranet</a></div>
+					<div class="desc"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras efficitur eu arcu eget finibus. Nullam interdum vel massa at molestie. Proin ac velit vitae justo porttitor maximus. Etiam urna purus, ullamcorper vel ex eget, imperdiet porta quam. Praesent vitae neque eu libero egestas pretium. Nulla ornare, nunc nec vehicula volutpat, velit sem imperdiet est, quis ornare ligula nunc at sem. Ut congue faucibus erat sed imperdiet. Praesent finibus at leo ac tempus. Nulla dapibus finibus sem, in placerat mauris cursus porttitor. Nam maximus sapien et nulla ultricies, nec ultricies sapien bibendum. Nam lobortis cursus pretium. Sed semper dui eget malesuada laoreet.</p></div>
+				</div>
+			</div>
+			<div class="row gmrsd">
+				<div class="screenshot col-6"></div>
+				<div class="body col-6">
 					<div class="url"><a>Gill-Montague Regional School District</a></div>
+					<div class="desc"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras efficitur eu arcu eget finibus. Nullam interdum vel massa at molestie. Proin ac velit vitae justo porttitor maximus. Etiam urna purus, ullamcorper vel ex eget, imperdiet porta quam. Praesent vitae neque eu libero egestas pretium. Nulla ornare, nunc nec vehicula volutpat, velit sem imperdiet est, quis ornare ligula nunc at sem. Ut congue faucibus erat sed imperdiet. Praesent finibus at leo ac tempus. Nulla dapibus finibus sem, in placerat mauris cursus porttitor. Nam maximus sapien et nulla ultricies, nec ultricies sapien bibendum. Nam lobortis cursus pretium. Sed semper dui eget malesuada laoreet.</p></div>
 				</div>
-				<div class="col-4 card bico">
-					<div class="screenshot"></div>
+			</div>
+			<div class="row bico">
+				<div class="screenshot col-6"></div>
+				<div class="body col-6">
 					<div class="url"><a>Bi-County Collaborative</a></div>
+					<div class="desc"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras efficitur eu arcu eget finibus. Nullam interdum vel massa at molestie. Proin ac velit vitae justo porttitor maximus. Etiam urna purus, ullamcorper vel ex eget, imperdiet porta quam. Praesent vitae neque eu libero egestas pretium. Nulla ornare, nunc nec vehicula volutpat, velit sem imperdiet est, quis ornare ligula nunc at sem. Ut congue faucibus erat sed imperdiet. Praesent finibus at leo ac tempus. Nulla dapibus finibus sem, in placerat mauris cursus porttitor. Nam maximus sapien et nulla ultricies, nec ultricies sapien bibendum. Nam lobortis cursus pretium. Sed semper dui eget malesuada laoreet.</p></div>
 				</div>
-				<div class="col-4 card ces">
-					<div class="screenshot"></div>
+			</div>
+			<div class="row ces">
+				<div class="screenshot col-6"></div>
+				<div class="body col-6">
 					<div class="url"><a>Collaborative for Educational Services</a></div>
+					<div class="desc"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras efficitur eu arcu eget finibus. Nullam interdum vel massa at molestie. Proin ac velit vitae justo porttitor maximus. Etiam urna purus, ullamcorper vel ex eget, imperdiet porta quam. Praesent vitae neque eu libero egestas pretium. Nulla ornare, nunc nec vehicula volutpat, velit sem imperdiet est, quis ornare ligula nunc at sem. Ut congue faucibus erat sed imperdiet. Praesent finibus at leo ac tempus. Nulla dapibus finibus sem, in placerat mauris cursus porttitor. Nam maximus sapien et nulla ultricies, nec ultricies sapien bibendum. Nam lobortis cursus pretium. Sed semper dui eget malesuada laoreet.</p></div>
 				</div>
 			</div>
 		</div>

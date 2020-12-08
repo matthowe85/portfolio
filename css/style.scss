@@ -132,28 +132,30 @@ footer {
     background-repeat: no-repeat;
     background-position-x: 50%;
 }
-
-.ea {
+.screenshot {
+	height: 265px;
+}
+.ea .screenshot {
 	background-image: url('../img/ea.png');
 	background-size: cover;
 }
-.dys {
+.dys .screenshot {
 	background-image: url('../img/dysguides.png');
 	background-size: cover;
 }
-.gmrsd {
+.gmrsd .screenshot {
 	background-image: url('../img/gmrsd.png');
 	background-size: cover;
 }
-.bitco {
+.bico .screenshot {
 	background-image: url('../img/profilepic.png');
 	background-size: cover;
 }
-.int {
+.int .screenshot {
 	background-image: url('../img/intranet.png');
 	background-size: cover;
 }
-.ces {
+.ces .screenshot {
 	background-image: url('../img/profilepic.png');
 	background-size: cover;
 }
