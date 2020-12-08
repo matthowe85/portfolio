@@ -6,11 +6,19 @@
 	<link rel="stylesheet" href="/css/style.css">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
 	<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
-	<script src="/js/global.js"></script>
+	
 	<script src="https://kit.fontawesome.com/d296c07018.js" crossorigin="anonymous"></script>
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
-	
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-46EE3M3D4V"></script>
+	<script>
+  		window.dataLayer = window.dataLayer || [];
+  		function gtag(){dataLayer.push(arguments);}
+  		gtag('js', new Date());
+
+  		gtag('config', 'G-46EE3M3D4V');
+	</script>
 </head>
 <body>
 	<header class="navbar navbar-expand-lg">
@@ -40,7 +48,7 @@
 		</div>
 		
 	</footer>
-	
+	<script src="/js/global.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/swup/2.0.5/swup.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>

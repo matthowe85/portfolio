@@ -80,4 +80,4 @@
   alert("Copied the text: " + copyText.value);
 }
 	</script>
-</html>
+</html> 
