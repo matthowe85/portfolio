@@ -47,7 +47,7 @@ main {
 #logo {
 	text-align: center;
     font-size: 35px;
-    color: white;
+    color: gainsboro;
     padding-top: 9%;
 	h1 {
 		font-size: 3em;
@@ -135,8 +135,16 @@ footer {
     background-repeat: no-repeat;
     background-position-x: 50%;
 }
+.url {
+	font-size: 25px;
+    padding-bottom: 20px;
+}
+.disclaimer {
+	margin: 6em;
+}
 .screenshot {
 	height: 265px;
+	margin-top: 10px;
 }
 .ea .screenshot {
 	background-image: url('../img/ea.png');
