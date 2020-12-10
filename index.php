@@ -21,7 +21,7 @@
 	</script>
 </head>
 <body>
-	<header class="navbar navbar-expand-lg">
+	<header class="navbar">
 		<ul class="navbar-nav">
 			<li><a href="/">Home</a></li>
 			<li><a href="/about.php">About</a></li>
@@ -31,7 +31,7 @@
 	<main id="swup" class="transition-fade">
 		<div class="wallpaper"></div>
 		<div id="page" class="home-page container-fluid">
-			<div id="logo"><h1>Matthew Howe</h1><span>Web Developer</span></div>
+			<div id="logo"><h1>Matthew Howe</h1><span>Web Developer</span></br><span>(Currently Under Construction)</span></div>
 		</div>
 	</main>
 	
