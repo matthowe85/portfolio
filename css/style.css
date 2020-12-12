@@ -10,6 +10,9 @@
   max-width: 1500px;
   margin: auto; }
 
+ul {
+  padding-left: 30px; }
+
 .transition-fade {
   transition: 0.4s;
   opacity: 1; }
@@ -23,11 +26,26 @@ main {
 .not-front {
   margin: 100px 0; }
   @media (max-width: 780px) {
+    .not-front {
+      margin: 50px; } }
+  @media (max-width: 780px) {
     .not-front .contact {
       display: none; } }
+  @media (max-width: 780px) {
+    .not-front h1,
+    .not-front h2 {
+      text-align: center; } }
+  @media (max-width: 780px) {
+    .not-front .col-6 {
+      width: 100%;
+      max-width: 100%; } }
 
 #page .row {
   padding-bottom: 50px; }
+  @media (max-width: 780px) {
+    #page .row {
+      display: block;
+      margin: 0; } }
 
 .card {
   background-color: gray; }
@@ -81,7 +99,8 @@ header nav {
     margin-bottom: 0;
     display: flex;
     justify-content: center;
-    padding: 20px; }
+    padding: 20px;
+    list-style: none; }
 
 footer {
   display: flex !important;
@@ -97,10 +116,7 @@ footer {
     right: 0; }
     @media (max-width: 780px) {
       footer .contact {
-        position: absolute;
-        right: 10px;
-        width: 10%;
-        bottom: 60px; } }
+        display: none; } }
     footer .contact .contact-icon {
       font-size: 2em;
       padding-right: 50px; }
@@ -113,9 +129,26 @@ footer {
       position: absolute;
       bottom: 50px;
       right: 64px; }
-    footer .contact #email-addy {
-      width: 191px;
-      padding: 5px; }
+  footer #email-addy {
+    width: 191px;
+    padding: 5px; }
+    @media (max-width: 780px) {
+      footer #email-addy {
+        font-size: 15px !important;
+        width: 182px !important; } }
+  @media (max-width: 780px) {
+    footer .mobile-contact {
+      display: flex !important;
+      margin: auto;
+      font-size: 30px;
+      color: #fff; }
+      footer .mobile-contact a {
+        color: #fff; }
+      footer .mobile-contact .email-slide {
+        display: none;
+        position: absolute;
+        bottom: 50px;
+        right: 64px; } }
   footer .copyright {
     margin: auto !important; }
     footer .copyright p {
@@ -131,10 +164,20 @@ footer {
   border: 5px solid;
   background-repeat: no-repeat;
   background-position-x: 50%; }
+  @media (max-width: 780px) {
+    .portrait {
+      width: 250px;
+      height: 250px;
+      background-size: 156px;
+      margin: 25% auto; } }
 
 .url {
   font-size: 25px;
   padding-bottom: 20px; }
+  @media (max-width: 780px) {
+    .url {
+      text-align: center;
+      padding-top: 20px; } }
 
 .disclaimer {
   margin: 6em; }
@@ -149,7 +192,9 @@ footer {
     .screenshot {
       max-width: 100% !important;
       width: 100% !important;
-      flex: 0 0 100% !important; } }
+      flex: 0 0 100% !important;
+      border: 1px solid gray;
+      margin-top: 25%; } }
 
 .ea .screenshot {
   background-image: url("../img/ea.png");

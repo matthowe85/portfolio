@@ -26,8 +26,8 @@
 		<nav>
 			<ul>
 				<li><a href="/">Home</a></li>
-				<li><a href="/about.php">About</a></li>
-				<li><a href="/portfolio.php">Portfolio</a></li>
+				<li><a href="/about">About</a></li>
+				<li><a href="/portfolio">Portfolio</a></li>
 			</ul>
 		</nav>
 	</header>
@@ -47,10 +47,18 @@
 			<i class="far fa-envelope email-icon contact-icon"></i>
 			<a class="contact-icon" href="https://www.linkedin.com/in/matthew-howe-10b03b40/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
 		</div>
+		<div class="mobile-contact mail" style="display:none;">
+			<div id="email" class="email-slide">
+			<input id="email-addy"type="text" value="matthowe85@gmail.com"  READONLY/><button class= "btn btn-light" onclick="copyToClipboard();">Copy</button>
+			</div>
+			<i class="far fa-envelope email-icon contact-icon"></i>
+		</div>
 		<div class="copyright">
 			<p>&#169; Matthew Howe <?php echo date('Y'); ?></p>
 		</div>
-		
+		<div class="mobile-contact link" style="display:none;">
+			<a class="contact-icon" href="https://www.linkedin.com/in/matthew-howe-10b03b40/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+		</div>
 	</footer>
 	<script src="/js/global.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/swup/2.0.5/swup.min.js"></script>
@@ -58,20 +66,5 @@
 </body>
 	<script>
 	const swup = new Swup();
-		
-	function myFunction() {
-  /* Get the text field */
-  var copyText = document.getElementById("email").innerHTML;
-
-  /* Select the text field */
-  copyText.select();
-  copyText.setSelectionRange(0, 99999); /*For mobile devices*/
-
-  /* Copy the text inside the text field */
-  document.execCommand("copy");
-
-  /* Alert the copied text */
-  alert("Copied the text: " + copyText.value);
-}
 	</script>
 </html>
