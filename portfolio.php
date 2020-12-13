@@ -26,15 +26,18 @@
 		<nav>
 			<ul>
 				<li><a href="/">Home</a></li>
-				<li><a href="/about.php">About</a></li>
-				<li><a href="/portfolio.php">Portfolio</a></li>
+				<li><a href="/about">About</a></li>
+				<li><a href="/portfolio">Portfolio</a></li>
 			</ul>
 		</nav>
 	</header>
 	<main id="swup" class="transition-fade swup-page">
 		<div id="page" class="not-front container portfolio-page container-fluid">
 			<h1>Portfolio</h1>
-			<p class="disclaimer">The websites displayed here are used with permission from Collaborative for Educational Services and were not designed by me. They were turned in to functional websites from a "mock-up" image. Please visit <a href="https://webdev.collaborative.org/" target="_blank">https://webdev.collaborative.org/</a> if you are interested in discussing your new website. </p>
+			<div class class="disclaimer">
+				<p>The websites displayed here are used with permission from Collaborative for Educational Services and were not designed by me. They were turned in to functional websites from a "mock-up" image. Please visit <a href="https://webdev.collaborative.org/" target="_blank">https://webdev.collaborative.org/</a> if you are interested in discussing your new website.</p>
+				<p style="text-align:center;">I have also not included links to certain websites because they are internal resources. </p>
+			</div>
 			<div class="row ea">
 				<div class="screenshot col-6"></div>
 				<div class="body col-6">
@@ -53,28 +56,28 @@
 				<div class="screenshot col-6"></div>
 				<div class="body col-6">
 					<div class="url"><a>CES Intranet</a></div>
-					<div class="desc"><p>The CES Intranet is a custom CMS built by us using PHP. Although I didn't create the intranet, I built many of it's feature including from scratch including: Articles/Blog, System logs, Time clock manager and Custom content blocks. </p></div>
+					<div class="desc"><p>The CES Intranet is a custom CMS built by us using PHP. Although I didn't create the intranet, I built many of it's feature from scratch including: Articles/Blog, System logs, Time clock manager and Custom content blocks. </p></div>
 				</div>
 			</div>
 			<div class="row gmrsd">
 				<div class="screenshot col-6"></div>
 				<div class="body col-6">
 					<div class="url"><a href="http://gmrsd.org/" target="_blank">Gill-Montague Regional School District</a></div>
-					<div class="desc"><p>This was my first project as a professional. It was built using Drupal </p></div>
+					<div class="desc"><p>This was my first project as a professional. I learned a lot about builting custom CMS themes from scratch as well as templating. This website also introduced me to PHP. </p></div>
 				</div>
 			</div>
 			<div class="row bico">
 				<div class="screenshot col-6"></div>
 				<div class="body col-6">
 					<div class="url"><a>Bi-County Collaborative (Coming Soon!)</a></div>
-					<div class="desc"><p>We are currently building this website.</p></div>
+					<div class="desc"><p>We are currently building this website. It will be built using Wordpress with Salesforce integration.</p></div>
 				</div>
 			</div>
 			<div class="row ces">
 				<div class="screenshot col-6"></div>
 				<div class="body col-6"> 
 					<div class="url"><a>Collaborative for Educational Services (Coming Soon!)</a></div>
-					<div class="desc"><p>We are currently redesigning our website. </p></div>
+					<div class="desc"><p>We are currently re-designing our website. This project has been delayed due to Covid-19 but will hopefully get back on track soon enough. It will be built using Wordpress and will contain Salesforce integration.</p></div>
 				</div>
 			</div>
 		</div>
@@ -89,7 +92,7 @@
 		</div>
 		<div class="mobile-contact mail" style="display:none;">
 			<div id="email" class="email-slide">
-			<input id="email-addy"type="text" value="matthowe85@gmail.com"  READONLY/><button class= "btn btn-light" onclick="copyToClipboard();">Copy</button>
+			<input id="email-addy2"type="text" value="matthowe85@gmail.com"  READONLY/><button class= "btn btn-light" onclick="copyToClipboard2();">Copy</button>
 			</div>
 			<i class="far fa-envelope email-icon contact-icon"></i>
 		</div>

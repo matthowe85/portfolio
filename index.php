@@ -26,16 +26,16 @@
 		<nav>
 			<ul>
 				<li><a href="/">Home</a></li>
-				<li><a href="/about.php">About</a></li>
-				<li><a href="/portfolio.php">Portfolio</a></li>
+				<li><a href="/about">About</a></li>
+				<li><a href="/portfolio">Portfolio</a></li>
 			</ul>
 		</nav>
 	</header>
 	<main id="swup" class="transition-fade">
 		<div class="wallpaper"></div>
 		<div id="page" class="home-page container-fluid">
-			<div id="logo"><h1>Matthew Howe</h1><span>Web Developer</span></br><span>(Currently Under Construction)
-			</span></div>
+			<div id="logo"><h1>Matthew Howe</h1><span>Web Developer</span></br><!--<span>(Currently Under Construction)
+			</span>--></div>
 		</div>
 	</main>
 	
@@ -49,7 +49,7 @@
 		</div>
 		<div class="mobile-contact mail" style="display:none;">
 			<div id="email" class="email-slide">
-			<input id="email-addy"type="text" value="matthowe85@gmail.com"  READONLY/><button class= "btn btn-light" onclick="copyToClipboard();">Copy</button>
+			<input id="email-addy2"type="text" value="matthowe85@gmail.com"  READONLY/><button class= "btn btn-light" onclick="copyToClipboard2();">Copy</button>
 			</div>
 			<i class="far fa-envelope email-icon contact-icon"></i>
 		</div>

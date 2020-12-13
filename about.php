@@ -26,8 +26,8 @@
 		<nav>
 			<ul>
 				<li><a href="/">Home</a></li>
-				<li><a href="/about.php">About</a></li>
-				<li><a href="/portfolio.php">Portfolio</a></li>
+				<li><a href="/about">About</a></li>
+				<li><a href="/portfolio">Portfolio</a></li>
 			</ul>
 		</nav>
 	</header>
@@ -86,7 +86,7 @@
 		</div>
 		<div class="mobile-contact mail" style="display:none;">
 			<div id="email" class="email-slide">
-			<input id="email-addy"type="text" value="matthowe85@gmail.com"  READONLY/><button class= "btn btn-light" onclick="copyToClipboard();">Copy</button>
+			<input id="email-addy2"type="text" value="matthowe85@gmail.com"  READONLY/><button class= "btn btn-light" onclick="copyToClipboard2();">Copy</button>
 			</div>
 			<i class="far fa-envelope email-icon contact-icon"></i>
 		</div>

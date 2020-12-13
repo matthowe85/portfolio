@@ -16,7 +16,6 @@
 $gray: #131417;
 $white: #fff;
 // SIZES //
-//$medium: #gg;
 //$small: #gg;
 /// GENERAL /// 
 * {
@@ -103,11 +102,12 @@ main {
 }
 .wallpaper {
 	position:absolute;
-	background-image: url('../img/pexels-pixabay-531880.jpg');
+	background-image: url('../img/pexels-photo-300857.jpeg');
 	background-size: cover;
 	width: 100%;
     height: 93%;
     z-index: -2;
+	@include respond('mobile'){background-position-x: 50%;}
 }
 
 /// HEADER ///
@@ -118,7 +118,12 @@ header {
 		a {
 			padding: 10px 40px;
 			color: $white;
-			@include respond('mobile'){padding: 10px 30px;}
+			//@include respond('mobile'){padding: 10px 30px;}
+		}
+		a:hover {
+			color: $white;
+			font-weight:bold;
+			transition:1s;
 		}
 		ul {
 			margin-bottom: 0;
@@ -162,7 +167,8 @@ footer {
 		}
 		
 	}
-#email-addy {
+#email-addy,
+#email-addy2 {
 			width: 191px;
     		padding: 5px;
 			@include respond('mobile'){font-size: 15px !important;width: 182px !important;}
@@ -225,6 +231,7 @@ footer {
 	@include respond('mobile'){
 		max-width: 100% !important;
     	width: 100% !important;
+		max-height: 158px;
     	flex: 0 0 100% !important;
 		border: 1px solid gray;
 		margin-top: 25%;

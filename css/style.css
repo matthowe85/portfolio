@@ -80,11 +80,14 @@ main {
 
 .wallpaper {
   position: absolute;
-  background-image: url("../img/pexels-pixabay-531880.jpg");
+  background-image: url("../img/pexels-photo-300857.jpeg");
   background-size: cover;
   width: 100%;
   height: 93%;
   z-index: -2; }
+  @media (max-width: 780px) {
+    .wallpaper {
+      background-position-x: 50%; } }
 
 header nav {
   justify-content: center !important;
@@ -92,9 +95,10 @@ header nav {
   header nav a {
     padding: 10px 40px;
     color: #fff; }
-    @media (max-width: 780px) {
-      header nav a {
-        padding: 10px 30px; } }
+  header nav a:hover {
+    color: #fff;
+    font-weight: bold;
+    transition: 1s; }
   header nav ul {
     margin-bottom: 0;
     display: flex;
@@ -129,11 +133,13 @@ footer {
       position: absolute;
       bottom: 50px;
       right: 64px; }
-  footer #email-addy {
+  footer #email-addy,
+  footer #email-addy2 {
     width: 191px;
     padding: 5px; }
     @media (max-width: 780px) {
-      footer #email-addy {
+      footer #email-addy,
+      footer #email-addy2 {
         font-size: 15px !important;
         width: 182px !important; } }
   @media (max-width: 780px) {
@@ -192,6 +198,7 @@ footer {
     .screenshot {
       max-width: 100% !important;
       width: 100% !important;
+      max-height: 158px;
       flex: 0 0 100% !important;
       border: 1px solid gray;
       margin-top: 25%; } }
