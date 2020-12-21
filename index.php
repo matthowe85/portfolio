@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <title>Matthew Howe</title>
@@ -45,7 +45,7 @@
 			<input id="email-addy"type="text" value="matthowe85@gmail.com"  READONLY/><button class= "btn btn-light" onclick="copyToClipboard();">Copy</button>
 			</div>
 			<i class="far fa-envelope email-icon contact-icon"></i>
-			<a class="contact-icon" href="https://www.linkedin.com/in/matthew-howe-10b03b40/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+			<a class="contact-icon" aria-label="My Linkedin Profile Page" href="https://www.linkedin.com/in/matthew-howe-10b03b40/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
 		</div>
 		<div class="mobile-contact mail" style="display:none;">
 			<div id="email" class="email-slide">
@@ -57,7 +57,7 @@
 			<p>&#169; Matthew Howe <?php echo date('Y'); ?></p>
 		</div>
 		<div class="mobile-contact link" style="display:none;">
-			<a class="contact-icon" href="https://www.linkedin.com/in/matthew-howe-10b03b40/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+			<a class="contact-icon" aria-label="My Linkedin Profile Page" href="https://www.linkedin.com/in/matthew-howe-10b03b40/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
 		</div>
 	</footer>
 	<script src="/js/global.js"></script>

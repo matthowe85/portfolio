@@ -22,6 +22,8 @@ html.is-animating .transition-fade {
 
 main {
   font-family: 'Open Sans', sans-serif; }
+  main a {
+    color: #0071EB !important; }
 
 .not-front {
   margin: 100px 0; }

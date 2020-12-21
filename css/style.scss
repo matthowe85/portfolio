@@ -15,6 +15,7 @@
 // COLORS //
 $gray: #131417;
 $white: #fff;
+$blue: #0071EB;
 // SIZES //
 //$small: #gg;
 /// GENERAL /// 
@@ -46,6 +47,9 @@ html.is-animating .transition-fade {
 /// PAGE SET-SET UP ///
 main {
 	font-family: 'Open Sans', sans-serif;
+	a {
+		color: $blue !important;
+	}
 }
 .not-front {
 	margin: 100px 0;
@@ -109,7 +113,7 @@ main {
     z-index: -2;
 	@include respond('mobile'){background-position-x: 50%;}
 }
-
+ 
 /// HEADER ///
 header {
 	nav {
